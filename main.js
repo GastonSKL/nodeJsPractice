@@ -1,9 +1,12 @@
 const express = require("express");
 const routes = require("./routes/index");
 const EventEmitter = require("events");
+var bodyParser = require('body-parser')
 
 const app = express();
+app.set("view engine", "pug");
 app.use(routes);
+app.use(bodyParser.json())
 
 const myEvent = new EventEmitter();
 

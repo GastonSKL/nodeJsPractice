@@ -1,11 +1,11 @@
 const express = require("express");
+const path = require("path");
 const bookRoutes = require("./books");
 const router = express.Router();
 router.use(bookRoutes);
 
 router.get("/", (req, res) => {
-  myEvent.emit("test-event", { name: "Carlos" });
-  res.send("Hello World!");
+  res.render("index",{name:"Gaston"});
 });
 
 router.all("/*", (req, res) => {
