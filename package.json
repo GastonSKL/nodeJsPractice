@@ -1,0 +1,24 @@
+{
+  "name": "curso",
+  "version": "1.0.0",
+  "description": "Practica para aprender NODE JS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GastonSKL/nodeJsPractice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GastonSKL/nodeJsPractice/issues"
+  },
+  "homepage": "https://github.com/GastonSKL/nodeJsPractice#readme",
+  "dependencies": {
+    "nodemon": "^2.0.21"
+  }
+}

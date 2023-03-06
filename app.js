@@ -1,3 +1,19 @@
-for (let int = 0; int < 10; int++) {
-    console.log('GastonSKL')    
-}
+const http = require("http");
+
+const server = http.createServer((req, res) => {
+  res.write('Hello word');
+  res.end()
+});
+const PORT = 4000;
+server.listen(PORT);
+console.log(`Server is running in localhost:${PORT}`);
+
+// const Circle = require('./circle')
+
+// const cir = new Circle()
+
+
+// console.log(cir.area(4));
+// console.log(cir.circunference(2));
+
+ 
